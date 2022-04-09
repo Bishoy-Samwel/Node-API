@@ -1,4 +1,4 @@
-# API design in Node.js with Express, v3
+# Node-API
 > Scott Moss & Frontend Masters
 
 - [Resources](#resources)
