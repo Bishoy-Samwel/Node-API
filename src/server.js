@@ -13,16 +13,16 @@ app.use(urlencoded({ extended: true }))
 app.use(morgan('dev'))
 
 app.get('/', (req, res) => {
-  res.send({message: 'hello'})
+  res.send({ message: 'hello' })
 })
 
-app.post('/', (req,res) => {
+app.post('/', (req, res) => {
   console.log(req.body)
-  res.send({message: 'ok'})
+  res.send({ message: 'ok' })
 })
 
 export const start = () => {
-  app.listen(3000, ()=>{
+  app.listen(3000, () => {
     console.log('server is on 3000')
   })
 }
